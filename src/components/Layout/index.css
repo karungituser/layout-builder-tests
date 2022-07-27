@@ -1,0 +1,16 @@
+.app-container {
+  width: 80%;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,22 @@
+.footer-container {
+  background-color: #cbd5e1;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-self: stretch;
+}
+.footer-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    height: 100px;
+    margin-top: 20px;
+  }
+  .footer-heading {
+    font-size: 38px;
+  }
+}
